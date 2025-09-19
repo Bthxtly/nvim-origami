@@ -6,7 +6,6 @@ local ns = vim.api.nvim_create_namespace("origami.foldText")
 
 --------------------------------------------------------------------------------
 
-vim.opt.fillchars:append { fold = " " }
 do
 	-- initialize in current window when lazy-loading `nvim-origami`
 	for _, winid in pairs(vim.api.nvim_list_wins()) do
